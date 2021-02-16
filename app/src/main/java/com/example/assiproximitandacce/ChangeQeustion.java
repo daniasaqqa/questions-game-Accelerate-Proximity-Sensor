@@ -19,8 +19,7 @@ import java.util.ArrayList;
 
 public class ChangeQeustion extends AppCompatActivity implements SensorEventListener {
 
-    // name: Dania Alsaqqa
-    // id: 220180608
+  
 
     SensorManager sensorManager;
     Sensor sensor;
@@ -77,7 +76,7 @@ public class ChangeQeustion extends AppCompatActivity implements SensorEventList
        // Log.d("daniasaqqa", "arrloopdata" + questionsArr.get(i).toString());
 
              try {
-                 // بالرقم الصغير هادا مش حيبين كتير حيبين انو بوقف على سؤال واحد ممكن تحط 500 حيبين 
+              
             Thread.sleep(200);
             } catch (InterruptedException e) {
             e.printStackTrace();
